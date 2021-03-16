@@ -9,8 +9,8 @@ namespace Retail.Repository.Interface
     {
         List<Product> Get();
         void Add(Product product);
-        public Product getById(Guid productid);
-        public void Update(Product product, Product entity);
-        public void Delete(Product product);
+        Product getById(Guid productid);
+        void Update(Product entity);
+        void Delete(Product product);
     }
 }

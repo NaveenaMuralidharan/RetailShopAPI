@@ -44,12 +44,9 @@ namespace Retail.Repository.Implementation
             return _dbContext.Products
                   .FirstOrDefault(p => p.ProductId == productid);
         }
-        public void Update(Product product, Product entity)
+        public void Update(Product product)
         {
-            product.ProductName = entity.ProductName;
-            
-            product.AvailableQuantity = entity.AvailableQuantity;
-
+            _dbContext.Products.Update(product);
             _dbContext.SaveChanges();
         }
         public void Delete(Product product)

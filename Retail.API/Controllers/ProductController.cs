@@ -49,12 +49,8 @@ namespace Retail.API.Controllers
             {
                 return BadRequest("Product is null.");
             }
-            Product productToUpdate = _productService.getById(productid);
-            if (productToUpdate == null)
-            {
-                return NotFound("The Product record couldn't be found.");
-            }
-            _productService.Update(productToUpdate,product);
+            
+            _productService.Update(productid, product);
             return NoContent();
         }
         [HttpDelete("{productid}")]

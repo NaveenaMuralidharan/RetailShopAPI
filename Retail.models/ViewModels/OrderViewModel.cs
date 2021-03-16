@@ -7,7 +7,7 @@ namespace Retail.Models.ViewModels
     {
 
         //public Guid OrderId { get; set; }
-        public Guid CustomerId { get; set; }
+        //public Guid CustomerId { get; set; }
         public Guid ProductId { get; set; }
         public int Quantity { get; set; }
         //public DateTime InvoiceDate { get; set; }

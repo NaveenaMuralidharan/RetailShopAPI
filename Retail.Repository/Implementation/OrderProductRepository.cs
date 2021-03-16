@@ -29,9 +29,17 @@ namespace Retail.Repositories.Implementations
         }
         public async Task<Order> PlaceOrder(Order Order)
         {
-            var result = _appDbContext.OrderProducts.Add(Order);
-            await _appDbContext.SaveChangesAsync();
-            return Order;
+
+            var product = await _appDbContext.Products.FindAsync(Order.ProductId);
+            if (Order.Quantity <= product.AvailableQuantity)
+            {
+                var result = _appDbContext.OrderProducts.Add(Order);
+                product.AvailableQuantity -= Order.Quantity;
+                await _appDbContext.SaveChangesAsync();
+                return Order;
+
+            }
+            return null;
         }
 
         public async Task DeleteOrder(Order Order)

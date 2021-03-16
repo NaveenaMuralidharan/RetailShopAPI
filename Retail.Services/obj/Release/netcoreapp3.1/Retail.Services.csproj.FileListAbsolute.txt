@@ -1,0 +1,14 @@
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Services.deps.json
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Services.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Services.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Models.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Repository.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Models.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.Services\bin\Release\netcoreapp3.1\Retail.Repository.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.csprojAssemblyReference.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.AssemblyInfoInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.AssemblyInfo.cs
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.csproj.CoreCompileInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.csproj.CopyComplete
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Services\obj\Release\netcoreapp3.1\Retail.Services.pdb

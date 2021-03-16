@@ -44,16 +44,19 @@ namespace Retail.Services.Implementation
             return _productRepository.getById(productid);
         }
 
-        public void Update(Product product, ProductViewModel entity)
+        public void Update(Guid productId, ProductViewModel entity)
         {
-            var Update = new Product()
+            var productToUpdate = getById(productId);
+            
+            if (productToUpdate == null)
             {
-                ProductName = entity.ProductName,
-                ProductId = entity.ProductId,
-                AvailableQuantity = entity.AvailableQuantity
-            };
+                throw new Exception("The Product record couldn't be found.");
+            }
 
-            _productRepository.Update(product, Update);
+            productToUpdate.ProductName = entity.ProductName;
+            productToUpdate.AvailableQuantity = entity.AvailableQuantity;
+
+            _productRepository.Update(productToUpdate);
         }
         public void Delete(Product product)
         {

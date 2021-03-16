@@ -13,7 +13,7 @@ namespace Retail.Services.Interface
         void Add(ProductViewModel orderViewModel);
 
         public Product getById(Guid productid);
-        public void Update(Product product, ProductViewModel entity);
+        public void Update(Guid id, ProductViewModel entity);
         public void Delete(Product product);
 
 

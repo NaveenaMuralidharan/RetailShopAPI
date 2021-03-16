@@ -13,6 +13,8 @@ using Retail.Services.Implementation;
 using Retail.Services.Interface;
 using Retail.Repository;
 using Microsoft.OpenApi.Models;
+using Retail.Repositories.Implementations;
+using Retail.Repositories.Interface;
 
 namespace Retail.API
 {
@@ -32,6 +34,8 @@ namespace Retail.API
 
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IOrderProductService, OrderProductService>();
+            services.AddScoped<IOrderProductRepository, OrderProductRepository>();
             services.AddMvc();
 
             services.AddSwaggerGen(c =>
@@ -42,14 +46,11 @@ namespace Retail.API
 
 
 
-            services.AddDbContext<AppDbContext>(k => k.UseMySQL(Configuration.GetConnectionString("DefaultConnection"), sql =>
+            services.AddDbContext<AppDbContext>(k => k.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), sql =>
             {
                 sql.CommandTimeout(60);
                 sql.MigrationsAssembly("Retail.Repository");
             }));
-
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IProductRepository, ProductRepository>();
 
         }
 
@@ -59,6 +60,11 @@ namespace Retail.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+
+            using (var scope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+            {
+                scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.Migrate();
             }
 
             app.UseHttpsRedirection();
