@@ -1,0 +1,12 @@
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\bin\Debug\netcoreapp3.1\Retail.Repository.deps.json
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\bin\Debug\netcoreapp3.1\Retail.Repository.runtimeconfig.json
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\bin\Debug\netcoreapp3.1\Retail.Repository.runtimeconfig.dev.json
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\bin\Debug\netcoreapp3.1\Retail.Repository.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\bin\Debug\netcoreapp3.1\Retail.Repository.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.AssemblyInfoInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.AssemblyInfo.cs
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.dll
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.genruntimeconfig.cache
+C:\Users\Naveena\source\repos\Retail\Retail.Repository\obj\Debug\netcoreapp3.1\Retail.Repository.csprojAssemblyReference.cache

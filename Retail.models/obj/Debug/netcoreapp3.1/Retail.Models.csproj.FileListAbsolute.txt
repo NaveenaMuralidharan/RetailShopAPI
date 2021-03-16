@@ -1,0 +1,9 @@
+C:\Users\Naveena\source\repos\Retail\Retail.models\bin\Debug\netcoreapp3.1\Retail.Models.deps.json
+C:\Users\Naveena\source\repos\Retail\Retail.models\bin\Debug\netcoreapp3.1\Retail.Models.dll
+C:\Users\Naveena\source\repos\Retail\Retail.models\bin\Debug\netcoreapp3.1\Retail.Models.pdb
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.csprojAssemblyReference.cache
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.AssemblyInfoInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.AssemblyInfo.cs
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.csproj.CoreCompileInputs.cache
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.dll
+C:\Users\Naveena\source\repos\Retail\Retail.models\obj\Debug\netcoreapp3.1\Retail.Models.pdb
